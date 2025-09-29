@@ -1,0 +1,14 @@
+assets/*
+nbproject/*
+!assets/.gitignore
+protected/runtime/*
+!protected/runtime/.gitignore
+protected/data/*.db
+themes/classic/views/
+/vendor
+/node_modules
+/storage/*.key
+.env
+/public/storage
+/public/hot
+/public/*.map

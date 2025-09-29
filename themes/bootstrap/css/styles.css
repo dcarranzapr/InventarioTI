@@ -1,0 +1,131 @@
+#page {
+    padding-top: 60px;
+}
+
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: table;
+    color: #4F4F4F;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: normal;
+    z-index: 20;
+}
+#login-form{
+    background: #FFF;
+    height: 295px;
+    left: 50%;
+    margin: -125px 0 0 -250px;
+    position: absolute;
+    top: 50%;
+    width: 470px;
+    border-bottom: 1px solid #C7C7C7;
+    /* Bordes redondeados */
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    opacity: none;
+
+    box-shadow: 0 2px 0 #aFaFaF;
+    -moz-box-shadow: 0 2px 0 #aFaFaF;
+    -webkit-box-shadow: 0 2px 0 #aFaFaF;
+}
+body form h2 {
+    border-bottom: 1px solid #C7C7C7;
+    height: 42px;
+    padding:15px 0 0 26px;
+    margin:-15px 0 0 0;
+
+
+    /* Bordes redondeados */
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px 6px 0 0;
+
+    /* gradiente */
+    background: #F2F2F2; /* Old browsers */
+    background: -moz-linear-gradient(top,  #F2F2F2 0%, #DCDCDC 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#DCDCDC), color-stop(100%,#F2F2F2)); /* Chrome, Safari4+ */
+    background: -webkit-linear-gradient(top,  #F2F2F2 0%,#DCDCDC 100%); /* Chrome10+, Safari5.1+ */
+    background: -o-linear-gradient(top,  #F2F2F2 0%,#DCDCDC 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #F2F2F2 0%,#DCDCDC 100%); /* IE10+ */
+    background: linear-gradient(top,  #F2F2F2 0%,#DCDCDC 100%); /* W3C */
+
+}
+
+#LoginForm_usuario,#LoginForm_password {
+    border: 1px solid #C7C7C7;
+    color: #717171;
+    width: 293px;
+    /* Bordes redondeados */
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+
+    /* gradiente */
+    background: #F2F2F2; /* Old browsers */
+    background: -moz-linear-gradient(top,  #F0F0F0 0%, #DDDDDD 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#DDDDDD), color-stop(100%,#F0F0F0)); /* Chrome, Safari4+ */
+    background: -webkit-linear-gradient(top,  #F0F0F0 0%,#DDDDDD 100%); /* Chrome10+, Safari5.1+ */
+    background: -o-linear-gradient(top,  #F0F0F0 0%,#DDDDDD 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #F0F0F0 0%,#DDDDDD 100%); /* IE10+ */
+    background: linear-gradient(top,  #F0F0F0 0%,#DDDDDD 100%); /* W3C */
+
+    /* sombras */
+    -moz-box-shadow: 0 1px 1px gray inset;
+    -webkit-box-shadow:0 1px 1px gray inset;
+    box-shadow:0 1px 1px gray inset;
+}
+
+
+
+
+
+
+[name="login"] {
+    border: 1px solid #2f9bdf;
+    color: #FFF;
+    display: block;
+  
+    font-size: 17px;
+    font-weight: bold;
+    height: 39px;
+    margin-top: 20px;
+    margin-right: 10px;
+
+    width: 90px;
+    /* Gradiente */
+    background: #2e91d9; /* Old browsers */
+    background: -moz-linear-gradient(top,  #2e91d9 0%, #2478d0 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2e91d9), color-stop(100%,#2478d0)); /* Chrome, Safari4+ */
+    background: -webkit-linear-gradient(top,  #2e91d9 0%,#2478d0 100%); /* Chrome10+, Safari5.1+ */
+    background: -o-linear-gradient(top,  #2e91d9 0%,#2478d0 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #2e91d9 0%,#2478d0 100%); /* IE10+ */
+    background: linear-gradient(top,  #2e91d9 0%,#2478d0 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e91d9', endColorstr='#2478d0',GradientType=0 ); /* IE6-9 */
+    /* Bordes redondeados */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    /* Sombra */
+    -moz-box-shadow: 0 1px 0 #4ea2df inset;
+    -webkit-box-shadow: 0 1px 0 #4ea2df inset;
+    box-shadow: 0 1px 0 #4ea2df inset;
+}
+
+
+.errorMessage{
+    margin-left: 35px;
+}
+
+#titulo
+{
+    display: inherit;  
+    padding-top: -300px;
+    padding-bottom: -150px;
+}
